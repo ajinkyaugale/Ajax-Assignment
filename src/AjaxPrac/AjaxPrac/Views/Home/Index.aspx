@@ -8,18 +8,10 @@
     <title>Index</title>
 </head>
 <body>
-    <form action="Home/Index" method="post">
-        Employee ID : <input type="text" name="id"/> <br /><br />
-        Employee Name : <input type="text" name="name"/><br /><br />
-        Employee Department : <input type="text" name="dept"/><br /><br />
-        Employee Address : <input type="text" name="addr"/><br /><br />
-        Employee Salary : <input type="text" name="sal"/><br /><br />
-
-        <input type="submit" name="btnSubmit" value="Submit" />
-    </form>
+    
 
 
-   <%-- <% using (Html.BeginForm()) { %>
+    <% using (Html.BeginForm()) { %>
         <%: Html.AntiForgeryToken() %>
         <%: Html.ValidationSummary(true) %>
     
@@ -70,6 +62,6 @@
                 <input type="submit" value="Create" />
             </p>
         </fieldset>
-    <% } %>--%>
+    <% } %>
 </body>
 </html>

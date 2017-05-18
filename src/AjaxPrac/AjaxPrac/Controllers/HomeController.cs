@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AjaxPrac.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,9 +11,18 @@ namespace AjaxPrac.Controllers
     {
         public ActionResult Index()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(Employee emp)
+        {
+            Console.WriteLine(emp.EmpName);
 
             return View();
         }
+
+
 
     }
 }
