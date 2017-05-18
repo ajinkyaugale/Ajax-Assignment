@@ -17,9 +17,7 @@ namespace AjaxPrac.Controllers
         [HttpPost]
         public ActionResult Index(Employee emp)
         {
-            Console.WriteLine(emp.EmpName);
-
-            return View();
+            return View("EmpList",emp);
         }
 
 
