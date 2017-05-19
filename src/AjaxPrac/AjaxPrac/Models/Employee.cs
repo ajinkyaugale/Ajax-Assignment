@@ -7,6 +7,7 @@ namespace AjaxPrac.Models
 {
     public class Employee
     {
+        //comm:
         public int EmpId { get; set; }
         public string EmpName { get; set; }
         public string EmpDepartment { get; set; }
