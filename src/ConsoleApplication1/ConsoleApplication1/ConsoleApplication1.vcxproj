@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClCompile Include="Bhushan.cpp" />
     <ClCompile Include="KthLargest.cpp" />
+    <ClCompile Include="LCS.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

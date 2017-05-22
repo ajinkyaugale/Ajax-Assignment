@@ -21,5 +21,8 @@
     <ClCompile Include="KthLargest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LCS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
